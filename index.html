@@ -1,4 +1,3 @@
-<form onsubmit="generateLink()">
 <ul>
     <li>Address:<input type='text' id='location'></li>
 	<li>City:<input type='text' id="locality"></li>
@@ -7,10 +6,9 @@
     <li>Country:<input type='text' id="country"></li>
     <li>Latitude:<input type='text' id="lat"></li>
     <li>Longitude:<input type='text' id="lon"></li>
-	<li>Test Output:<input type='text' id="testoutput"></li>
 </ul>
-<input type="submit">
-</form>
+<input type="submit" id="genLinkSubmit" onsubmit=generateLink()>
+
 
 <input type='text' id='output' readonly="readonly">
 <script>
